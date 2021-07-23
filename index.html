@@ -39,7 +39,7 @@
 
 						</p>
 
-						<form
+					<!--	<form
             class="mt-1"
             name="email-form"
             method="POST"
@@ -54,17 +54,27 @@
                   size="40"
                   class="form-control"
                   placeholder="Put me in the waitlist"/></span
-              ><button type="submit" value="Submit" class="form-control submit">
+              >
+              <button type="submit" value="Submit" class="form-control submit">
                 <i class="fas fa-chevron-right"></i>
               </button>
             </div>
-          </form>
+          </form> -->
 
 
 					</div>
 					<div class="cta">
+  					
+						<form name="email-form" method="POST" data-netlify="true">
+							<input type="email" name="email" id="email" size="60" placeholder="email..."/></span
+              >
+
 						<!-- <button class="cta-select">14 Inch</button> -->
-						<button class="cta-add">Join the Waitlist</button>
+						<button class="cta-add" type="submit">Join the Waitlist</button>
+
+					</form>
+
+
 					</div>
 				</div>
 				<div class="cover">

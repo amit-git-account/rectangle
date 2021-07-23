@@ -31,6 +31,7 @@ header {
 .logo {
 	font-weight: 400;
 	margin: 5px;
+	color: #c36cbb;
 }
 nav {
 	flex: 2;

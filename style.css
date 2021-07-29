@@ -34,7 +34,7 @@ header {
 	color: #c36cbb;
 }
 nav {
-	flex: 2;
+	flex: 0.5;
 }
 .nav-links {
 	justify-content: space-around;
@@ -42,7 +42,7 @@ nav {
 }
 .nav-link {
 	color: #5f5f79;
-	font-size: 18px;
+	font-size: 15px;
 	text-decoration: none;
 }
 .cart {

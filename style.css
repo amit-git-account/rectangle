@@ -54,7 +54,7 @@ nav {
 	display: flex;
 	width: 90%;
 	margin: auto;
-	min-height: 80vh;
+	min-height: 10vh;
 	align-items: center;
 }
 .introduction {
@@ -70,6 +70,12 @@ nav {
 .intro-text p {
 	margin-top: 5px;
 	font-size: 22px;
+	color: #585772;
+}
+.blog-text p {
+	margin-top: 20px;
+		margin-bottom: 20px;
+	font-size: 18px;
 	color: #585772;
 }
 .cta {
